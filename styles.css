@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Задний фон-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #2CC0E6;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.button-pink {
+    background-color: #ED1DC0;
+    color: #fff;
+}
+
+.button-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.text-left {
+    float: left;
+    width: calc(50% - 20px); /* Ширина текста слева */
+}
+
+.text-right {
+    float: right;
+    width: calc(50% - 20px); /* Ширина контейнера с текстом и изображениями справа */
+    text-align: center;
+}
+
+.text-right h3 {
+    margin-top: 0; /* Убираем верхний отступ для заголовка */
+}
+
+.text-right img {
+    display: block;
+    margin: 0 auto;
+    width: 50%; /* Уменьшаем ширину изображений вдвое */
+    margin-top: 80px; /* Добавляем отступ сверху в 4 абзаца */
+}
+
+.rounded {
+    border-radius: 20px; /* Закругляем углы изображений */
+}
